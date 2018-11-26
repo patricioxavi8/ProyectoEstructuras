@@ -1,0 +1,4 @@
+vomito|1
+fiebre|2
+cabeza|3
+resfrio|2

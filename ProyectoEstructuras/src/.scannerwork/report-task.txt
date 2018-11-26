@@ -1,0 +1,6 @@
+projectKey=g3pilas
+serverUrl=http://200.9.176.59:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://200.9.176.59:9000/dashboard/index/g3pilas
+ceTaskId=AWdOQvRN0N4LA0c1TOwh
+ceTaskUrl=http://200.9.176.59:9000/api/ce/task?id=AWdOQvRN0N4LA0c1TOwh

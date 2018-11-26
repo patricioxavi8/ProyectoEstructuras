@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="turnos.RegistroPacientesController">
+   <children>
+      <Button fx:id="botonRegistrar" layoutX="172.0" layoutY="447.0" mnemonicParsing="false" onAction="#accionRegistrar" styleClass="myButton" stylesheets="@style.css" text="Registrar Paciente" />
+      <TextField fx:id="lblnombre" layoutX="228.0" layoutY="119.0" />
+      <TextField fx:id="lblapellido" layoutX="228.0" layoutY="168.0" />
+      <TextField fx:id="lblcedula" layoutX="228.0" layoutY="220.0" />
+      <TextField fx:id="lbledad" layoutX="228.0" layoutY="272.0" />
+      <Label layoutX="101.0" layoutY="124.0" text="Nombres" />
+      <Label layoutX="101.0" layoutY="173.0" text="Apellidos" />
+      <Label layoutX="108.0" layoutY="225.0" text="Cedula" />
+      <Label layoutX="114.0" layoutY="277.0" text="Edad" />
+      <Label layoutX="110.0" layoutY="321.0" text="Genero" />
+      <ComboBox fx:id="cbxgenero" layoutX="228.0" layoutY="316.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbxsintomas" layoutX="228.0" layoutY="370.0" prefWidth="150.0" />
+      <Label layoutX="113.0" layoutY="375.0" text="Sintomas" />
+      <Label layoutX="157.0" layoutY="25.0" prefHeight="64.0" prefWidth="231.0" text="REGISTRO PACIENTES" textAlignment="CENTER">
+         <font>
+            <Font name="Al Nile" size="13.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

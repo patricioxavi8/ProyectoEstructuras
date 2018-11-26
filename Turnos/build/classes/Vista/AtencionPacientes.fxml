@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="turnos.AtencionPacientesController">
+   <children>
+      <Button fx:id="btnPuesto" layoutX="101.0" layoutY="153.0" mnemonicParsing="false" onAction="#agregarPuesto" prefHeight="66.0" prefWidth="147.0" text="Agregar Puesto" />
+      <Button fx:id="btnAtender" layoutX="313.0" layoutY="153.0" mnemonicParsing="false" onAction="#atenderPaciente" prefHeight="66.0" prefWidth="141.0" text="Atender Paciente" />
+      <ComboBox fx:id="cbxPuestos" layoutX="200.0" layoutY="66.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+projectKey=g3
+serverUrl=http://200.9.176.59:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://200.9.176.59:9000/dashboard/index/g3
+ceTaskId=AWdOFMx_0N4LA0c1TOv4
+ceTaskUrl=http://200.9.176.59:9000/api/ce/task?id=AWdOFMx_0N4LA0c1TOv4
